@@ -51,5 +51,11 @@ body{
  margin: auto;
  
 }
+/* responsive detail */
+@media only screen and (max-width: 600px) {
 
+    #container{
+        width: 90%;
+    }
+}
 /* <!-- Nikola Stanin 21.04.2021. 13h25min --> */
