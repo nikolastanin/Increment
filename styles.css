@@ -1,33 +1,51 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+    
     background-color: #f2edd7;
 }
 /* universal button styles */
 .button{
-    /* width: 200px;
-    height: 200px; */
-   text-align: center;
-   text-decoration: none;
-    margin :  20px 0 ;
+ 
+    text-align: center;
+    text-decoration: none;
+    margin:30px 30px ;
     font-size: 1.5rem;
     border: none;
     color: white;
-    display: inline-block;
     padding: 50px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
 }
-.button:hover{
-    border: none;
+
+.button:active{
+    transform: translate(0px, 2px);
+    webkit-transform: translate(0px, 2px);
+    box-shadow: 0px 1px 0px 0px;
 }
+
+
 
 /* styling button */
 #but1{
     background-color: #3a6351;
 }
 #but2{
-    background-color: #c15050;
+    background-color: #3a6351;
 }
-#section{
-    width: 100%;
-    padding: 20px;
+#butreset{
+    background-color: #c15050;
+    
+}
+
+#result{
+        color: black;
+   background-color: #f2edd7;
+   border-style: solid;
+   border-color: teal;
+   
+}
+
+
+#container{
+ width: 80%;
 }
