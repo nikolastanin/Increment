@@ -1,15 +1,33 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #f2edd7;
 }
-
+/* universal button styles */
 .button{
-    width: 200px;
-    height: 200px;
-   background-color: red;
+    /* width: 200px;
+    height: 200px; */
    text-align: center;
-margin :  20px 0 ;
-/* test necega  */
+   text-decoration: none;
+    margin :  20px 0 ;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 50px;
+}
+.button:hover{
+    border: none;
 }
 
-    
+/* styling button */
+#but1{
+    background-color: #3a6351;
+}
+#but2{
+    background-color: #c15050;
+}
+#section{
+    width: 100%;
+    padding: 20px;
+}

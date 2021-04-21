@@ -2,6 +2,7 @@
 let counter = 0;
 let but1 = document.querySelector("#but1");
 let but2 = document.querySelector("#but2");
+let butreset = document.querySelector("#butreset");
 let result = document.getElementById("result");
 
 //functionality 
@@ -22,3 +23,10 @@ minFunc = () =>{
 
     }
     
+    resetFunc = () =>{
+        counter=0;
+        result.textContent = counter; 
+        console.log(counter);
+    
+        }
+        
