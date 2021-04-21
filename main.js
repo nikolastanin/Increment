@@ -30,3 +30,5 @@ minFunc = () =>{
     
         }
         
+
+        // <!-- Nikola Stanin 21.04.2021. 13h25min -->
