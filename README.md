@@ -1,2 +1,2 @@
 # Increment
-A test project I made while learning JavaScript. 
+A simple test project I made while learning JavaScript. 
