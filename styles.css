@@ -8,11 +8,11 @@ body{
  
     text-align: center;
     text-decoration: none;
-    margin-top: 70px;
+    margin-top: 10px;
     font-size: 1.5rem;
     border: none;
     color: white;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     outline: none;
     width: 100%;
@@ -49,8 +49,24 @@ body{
 #container{
  width: 50%;
  margin: auto;
- 
+ margin-top: 100px;
 }
+
+footer{
+    position: fixed;
+   
+    bottom: 0;
+   
+    bottom: 0;
+    width: 100%; 
+   
+    color: #34463e;
+    text-align: center;
+
+  /* z-index: -1; */
+}
+
+
 /* responsive detail */
 @media only screen and (max-width: 600px) {
 
@@ -58,7 +74,8 @@ body{
         width: 90%;
     }
     body{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 }
+
 /* <!-- Nikola Stanin 21.04.2021. 13h25min --> */
